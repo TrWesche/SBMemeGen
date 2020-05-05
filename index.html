@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do it for the MEMEs!</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <h1>DO IT FOR THE <span>MEMES</span>!</h1>
+    </header>
+
+    <main>
+        <section id="user-inputs">
+            <p class="desc-text">Use the form below to generate your perfect meme!</p>
+
+            <form id="meme-inputs">
+                <div id="input-fields">
+
+                    <div class="text-field">
+                        <p>Image Source:</p>
+                        <input type="text" name="img-source" id="img-source" placeholder="Insert a link to the image for your meme!">
+                    </div>
+
+                    <div class="text-field">
+                        <p>Text Top:</p>
+                        <input type="text" name="text-1-source" id="text-1-source" maxlength="36" placeholder="Insert text you want to appear at the top of your meme! (36 chars max)">
+                    </div>
+
+                    <div class="text-field">
+                        <p>Text Bottom:</p>
+                        <input type="text" name="text-2-source" id="text-2-source" maxlength="36" placeholder="Insert text you want to appear at the bottom of your meme! (36 chars max)">
+                    </div>
+
+                </div>
+
+                <div id="submit-action">
+                    <button type="submit">Generate Meme!</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="memes-generated">
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
